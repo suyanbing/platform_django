@@ -1,0 +1,24 @@
+#mapfroverview { 
+	height: 400px; 
+}
+
+.country {
+	fill:#aaaaaa;
+	stroke:#fff;
+	stroke-width:0.25;
+}
+
+.selected {
+	fill:#D33F49;
+}
+
+.fieldreportoverview {
+	padding-bottom:20px;
+	border-bottom-color:#aaa;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+}
+
+.keyfigure {
+	font-size:1.2em;
+}

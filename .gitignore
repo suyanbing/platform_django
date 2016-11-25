@@ -2,3 +2,20 @@
 ifrc/settings.py
 
 ifrc/settings.pyc
+
+ingest/
+analyze_new_cluster.sh
+
+delete_old_cluster.sh
+
+*.pyc
+
+*.pyc
+
+*.pyc
+
+*.pyc
+
+ifrc/urls.pyc
+
+main/admin.pyc
