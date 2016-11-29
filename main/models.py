@@ -30,6 +30,7 @@ class Dmis_field_report(models.Model):
 	DisasterType = models.ManyToManyField("Dmis_disasters", blank=True)
 	Country = models.ManyToManyField("Dmis_countries", blank=True)
 	NumericalReport = models.ManyToManyField("Dmis_numericalreport", blank=True)
+	ResponseTools = models.ManyToManyField("Dmis_response_tools", blank=True)
 
 class Dmis_numericalreport(models.Model):
 	NumericDetailsID = models.IntegerField() #IDs not used by Django, but rather DMIS.  USed to make initial join.
@@ -68,3 +69,14 @@ class Dmis_disasters(models.Model):
 
 	def __str__(self):
 		return u"%s" % self.DisasterTypeName
+
+class Dmis_response_tools(models.Model):
+	ReportID = models.IntegerField()
+	RIT = models.CharField(max_length=255)
+	RDRT = models.CharField(max_length=255)
+	FACT = models.CharField(max_length=255)
+	ERU = models.CharField(max_length=255)
+	RFL = models.CharField(max_length=255)
+
+
+

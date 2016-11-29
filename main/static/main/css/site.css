@@ -2,6 +2,10 @@
 	height: 400px; 
 }
 
+#mapfr {
+	height: 300px; 
+}
+
 .country {
 	fill:#aaaaaa;
 	stroke:#fff;
@@ -13,12 +17,25 @@
 }
 
 .fieldreportoverview {
-	padding-bottom:20px;
 	border-bottom-color:#aaa;
 	border-bottom-style:solid;
 	border-bottom-width:1px;
 }
 
 .keyfigure {
-	font-size:1.2em;
+	font-size:1.0em;
+}
+
+.keyfiguretitle {
+	font-size:1.0em;
+}
+
+.maintext {
+	font-size:1.4em;
+	max-width:900px;
+	margin: 0 auto
+}
+
+.larger {
+	font-size:1.4em
 }
